@@ -4,9 +4,6 @@ FROM bellsoft/liberica-openjdk-alpine:21
 # 이미지 작성자
 LABEL MAINTAINER="young"
 
-# 명령어
-CMD ["./gradlew", "clean", "build"]
-
 # 9091 포트 오픈
 EXPOSE 9091
 
