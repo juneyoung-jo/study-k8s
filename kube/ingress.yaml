@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-    - host: yourdomain.com  # 도메인 이름 (테스트 시에는 hosts 파일 수정 가능)
+    - host: hello-world.local  # 도메인 이름 (테스트 시에는 hosts 파일 수정 가능)
       http:
         paths:
           - path: /
