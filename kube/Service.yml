@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-world
+spec:
+  type: ClusterIP  # 클러스터 내부에서 접근할 수 있는 IP 설정
+  selector:
+    app: hello-world
+  ports:
+    - protocol: TCP
+      port: 80           # 서비스가 노출하는 포트
+      targetPort: 9091   # 컨테이너 내부 애플리케이션 포트
