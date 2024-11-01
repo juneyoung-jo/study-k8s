@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: fisrt6500/hello-world:latest  # 빌드한 Docker 이미지 이름
+          image: first6500/hello-world:latest  # 빌드한 Docker 이미지 이름
           ports:
             - containerPort: 9091 # 어플리케이션의 포트
 #          env:
