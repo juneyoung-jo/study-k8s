@@ -13,6 +13,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: hello-world
+                name: hello-world-service
                 port:
                   number: 80
